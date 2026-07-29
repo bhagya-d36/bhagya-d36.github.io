@@ -196,8 +196,8 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    name: "Azure Data Scientist Associate",
-    issuer: "Microsoft Certified",
+    name: "Microsoft Certified: Azure Data Scientist Associate",
+    issuer: "Microsoft",
     href: "https://learn.microsoft.com/en-us/users/bhagyadissanayake-7088/credentials/6ed50211c451efbd",
   },
   {

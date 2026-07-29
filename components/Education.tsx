@@ -26,22 +26,21 @@ export default function Education() {
 
       <div className="min-w-0">
         <p className="mono-label mb-2">Certifications</p>
-        <p className="flex flex-wrap gap-x-1 gap-y-1 text-sm leading-relaxed">
-          {certifications.map((cert, i) => (
-            <span key={cert.name}>
+        <ul className="flex flex-col gap-1.5 text-sm leading-relaxed">
+          {certifications.map((cert) => (
+            <li key={cert.name}>
               <a
                 href={cert.href}
                 target="_blank"
                 rel="noreferrer"
-                title={cert.issuer}
                 className="text-text-secondary transition-colors duration-150 hover:text-accent focus-visible:text-accent"
               >
                 {cert.name}
               </a>
-              {i < certifications.length - 1 && <span className="text-text-muted"> · </span>}
-            </span>
+              <span className="text-text-muted"> — {cert.issuer}</span>
+            </li>
           ))}
-        </p>
+        </ul>
       </div>
     </div>
   );
