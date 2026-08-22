@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
       <p className="max-w-[60ch] text-lg leading-relaxed text-text-secondary">
-        Open to data science and AI/ML roles, collaborations, and conversations about applied ML systems.
+        Always happy to talk data science, AI/ML, or potential collaborations — reach out anytime.
       </p>
 
       <div className="mt-8 flex flex-wrap items-center gap-4">
