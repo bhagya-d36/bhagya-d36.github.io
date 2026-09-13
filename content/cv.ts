@@ -73,7 +73,7 @@ export const experience: ExperienceEntry[] = [
         end: "Present",
         bullets: [
           "Delivered analytics and reporting across all of Sysco's ITSM practices, building, maintaining, and refining interactive dashboards and reports using Power BI and ServiceNow, transforming ITSM data into actionable insights for relevant teams and leadership.",
-          "Designed and deployed AI & Machine Learning solutions across different verticals in Sysco's ITSM ecosystem, spanning Incident Management (& MIM), Change Management, and Problem Management, improving overall efficiency and operational performance. Production-grade models addressing high-impact use cases are currently deployed and in active use.",
+          "Designed and deployed AI & Machine Learning solutions across key domains in Sysco's ITSM ecosystem, spanning Incident Management (& MIM), Change Management, and Problem Management, improving overall efficiency and operational performance. Production-grade models addressing high-impact use cases are currently deployed and in active use.",
           "Supported data governance initiatives by ensuring data accuracy, consistency, quality, and compliance across reporting and analytics processes.",
         ],
       },
